@@ -1,0 +1,38 @@
+### Table
+int id
+text username
+img profile_image
+bool cancelled
+text phone_number
+text email
+text user_description
+
+### restaurant
+int id
+int category_id
+text name
+img picture
+text intro
+text tag
+float star
+float distance
+
+### food
+int id
+int restaurant id
+img picture
+text name
+text intro
+float price
+text tag
+
+### sharing
+int id
+int restaurant id
+date date
+
+### catogories
+int id
+text name
+img icon
+
